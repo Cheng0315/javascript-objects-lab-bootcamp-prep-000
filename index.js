@@ -20,7 +20,7 @@ function deleteFromObjectByKey(object, key) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  var newW = Object.assign({}, object);
-  delete newW[key];
-  return newW;
+  var newObj = Object.assign({}, object);
+  delete newObj[key];
+  return newObj;
 }
